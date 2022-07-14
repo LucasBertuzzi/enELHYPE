@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+header{
+    font-size: 30px;
+    list-style: none;
+}
+
+.border{
+    border-radius: 30px;
+    margin: 30px 0px 20px 30px;
+    width: 500px;
+    height: 500px;
+
+}
+
+iframe{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+footer{
+    margin-left: 45%;
+}
+
+
+.flex-container{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logowp{
+    position: sticky;
+    bottom: 20px;
+    margin-left: 96%;
+    margin-bottom: 20px;
+}
+
+form{
+    margin: 20px;  
+}
+
+.logos{
+    margin: 100px 100px 100px 1000px;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+p{
+    margin-left: 200px;
+}
+
+.nosotros{
+    margin: 10% 20% 0% 6%;
+    color: dimgrey;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
