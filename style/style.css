@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: beige;
+    background-color: rgb(242, 219, 156);
 }
 
 a{
@@ -35,14 +35,14 @@ h2{
 }
 
 .banner{
-    width: 100%;
+    background-color: rgb(193, 169, 141);
     height: 350px;
     margin-top: 20px;
+    text-align: center;
 }
 
 
 .banner-img{
-    width: 100%;
     height: 350px;
 }
 
@@ -53,10 +53,22 @@ h3{
     margin: 20px;
 }
 
+.text-p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 header{
     font-size: 30px;
     list-style: none;
+}
+
+.FondoNav{
+    background-color:rgb(242, 219, 156);
+   }
+
+.Formulario{
+    margin-right: 40%;
+    margin-left: 20px;
 }
 
 .border{
@@ -161,6 +173,7 @@ p{
     .logowp{
         position: sticky;
         margin-top: 0%;
+        margin-left: 94%;
     }
     
     footer{
@@ -193,6 +206,11 @@ p{
     footer{
         margin-top: 40%;
     }
+
+    .logowp{
+        position: sticky;
+        margin-left: 90%;
+    }
 }
 
 @media (max-width:630px){
@@ -210,6 +228,10 @@ p{
 
         .border{
             margin: 50px 0px 0px 30px;
+        }
+        .logowp{
+            position: sticky;
+            margin-left: 80%;
         }
 }
     
