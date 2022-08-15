@@ -1,0 +1,10 @@
+.btn-outline-success, .btn-primary{
+    background-color: rgb(235, 186, 118);
+    color: black;
+    border: none;
+    
+    &:hover{
+        background-color: rgb(230, 168, 81);
+        color: black;
+    }
+}
