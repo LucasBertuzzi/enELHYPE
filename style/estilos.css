@@ -1,11 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,100&display=swap");
+.flex-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.grid-index {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+}
+
+.btn-outline-success, .btn-primary {
+  background-color: rgb(235, 186, 118);
+  color: black;
+  border: none;
+}
+.btn-outline-success:hover, .btn-primary:hover {
+  background-color: rgb(230, 168, 81);
+  color: black;
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 
-body {
+body, .FondoNav {
   background-color: rgb(242, 219, 156);
 }
 
@@ -17,13 +46,45 @@ a {
   border-radius: 5px;
 }
 
-.FondoNav {
-  background-color: rgb(242, 219, 156);
-}
-
 header {
   font-size: 30px;
   list-style: none;
+}
+
+.logowp {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+  margin-left: 96%;
+  margin-bottom: 20px;
+}
+
+.logos {
+  margin-left: 40%;
+}
+
+.border {
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+  margin: 30px 0px 0px 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.banner-img {
+  height: 350px;
+}
+
+.banner {
+  background-color: rgb(193, 169, 141);
+  height: 350px;
+  margin-top: 15px;
+  text-align: center;
 }
 
 h1 {
@@ -47,76 +108,14 @@ h3 {
   margin: 20px;
 }
 
-.banner-img {
-  height: 350px;
-}
-
-.banner {
-  background-color: rgb(193, 169, 141);
-  height: 350px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.border {
-  border-radius: 30px;
-  width: 500px;
-  height: 500px;
-  margin: 30px 0px 0px 30px;
+.text-p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 20%;
 }
 
 .Formulario {
   margin-right: 40%;
   margin-left: 20px;
-}
-
-.btn-outline-success, .btn-primary {
-  background-color: rgb(235, 186, 118);
-  color: black;
-  border: none;
-}
-.btn-outline-success:hover, .btn-primary:hover {
-  background-color: rgb(230, 168, 81);
-  color: black;
-}
-
-p {
-  margin-left: 30%;
-}
-
-.nosotros {
-  margin: 10% 20% 0% 6%;
-  color: dimgrey;
-  font-size: 20px;
-}
-
-.text-p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.flex-container {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-}
-
-.grid-index {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 33% 33% 33%;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0px;
 }
 
 .mapa {
@@ -125,16 +124,14 @@ footer {
   justify-content: center;
 }
 
-.logowp {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0px;
-  margin-left: 96%;
-  margin-bottom: 20px;
+p {
+  margin-left: 30%;
 }
 
-.logos {
-  margin-left: 40%;
+.nosotros {
+  margin: 10% 20% 0% 6%;
+  color: dimgray;
+  font-size: 20px;
 }
 
 @media (max-width: 2100px) {

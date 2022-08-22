@@ -6,3 +6,52 @@
 body{
     background-color: rgb(242, 219, 156);
 }
+
+a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.FondoNav{
+    @extend body
+}
+
+header{
+    font-size: 30px;
+    list-style: none;
+}
+
+.logowp{
+    position: sticky;
+    bottom: 0px;
+    margin-left: 96%;
+    margin-bottom: 20px;
+}
+
+
+.logos{
+    margin-left: 40%;
+    
+}
+
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width
+    
+}
+.border{
+    @include sizes(500px,500px);
+    border-radius: 30px;
+    margin: 30px 0px 0px 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
